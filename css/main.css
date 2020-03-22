@@ -204,6 +204,15 @@ header .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url(../../assets/hero2.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background color: #333;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .hero-area h1 {
