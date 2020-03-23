@@ -106,7 +106,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
-  /* color:white; */
+  color:white;
 }
 
 h2 {
@@ -213,6 +213,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  min-height: 650px;
 }
 
 .hero-area h1 {
@@ -241,6 +242,11 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url(../../assets/features2.jpg);
+  min-height: 750px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .features h2 {
@@ -273,6 +279,7 @@ article {
   justify-content: center;
   flex-flow: row wrap;
   background-color: #527158;
+  min-height: 620px;
 }
 
 .reviews h2 {
